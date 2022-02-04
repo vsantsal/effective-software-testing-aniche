@@ -1,6 +1,6 @@
 import pytest
 
-from capitulo_02.add_numbers_list import add
+from capitulo_02 import add
 
 
 @pytest.mark.parametrize('left, right, resultado_esperado',
