@@ -1,6 +1,6 @@
 import pytest
 
-from capitulo_02.substrings import substrings_between
+from capitulo_02 import substrings_between
 
 
 @pytest.mark.parametrize('texto, texto_inicio, texto_fim, saida_esperada',
